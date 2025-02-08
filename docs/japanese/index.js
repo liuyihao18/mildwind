@@ -187,6 +187,10 @@ const Bunpou = {
                 link: `${Base.bunpou}/accessory/jyoshi/setsuzokujyoshi`,
               }
             ]
+          },
+          {
+            text: '助动词',
+            link: `${Base.bunpou}/accessory/jyodoushi/`,
           }
         ]
       },
