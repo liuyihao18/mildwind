@@ -77,6 +77,7 @@ export default defineConfig({
     },
 
     sidebarMenuLabel: '菜单',
+    returnToTopLabel: '回到顶部',
 
     socialLinks: [
       {icon: 'github', link: 'https://github.com/liuyihao18'}
@@ -92,7 +93,16 @@ export default defineConfig({
       level: [2, 3]
     },
 
-    darkModeSwitchLabel: '主题'
+    darkModeSwitchLabel: '主题',
+
+    lastUpdated: {
+      text: '最后更新于'
+    },
+
+    editLink: {
+      pattern: 'https://github.com/liuyihao18/mildwind/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
+    }
   },
   markdown: {
     math: true,
@@ -113,5 +123,9 @@ export default defineConfig({
         )
       })
     }
-  }
+  },
+  sitemap: {
+    hostname: 'https://www.liuyihao.top'
+  },
+  lastUpdated: true,
 })
