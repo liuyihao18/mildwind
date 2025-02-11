@@ -65,10 +65,6 @@ export default defineConfig({
         text: '图库',
         link: Images.link,
         activeMatch: Images.link
-      },
-      {
-        text: '关于',
-        link: '/../',
       }
     ],
 
