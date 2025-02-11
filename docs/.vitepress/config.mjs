@@ -66,6 +66,10 @@ export default defineConfig({
         link: Images.link,
         activeMatch: Images.link
       },
+      {
+        text: '关于',
+        link: '/../',
+      }
     ],
 
     sidebar: {
@@ -114,7 +118,7 @@ export default defineConfig({
       // 在 Markdown 渲染之前对内容进行预处理
       md.core.ruler.before('normalize', 'preprocess', (state) => {
         // 假名标音替换
-        state.src = state.src.replace(/\[(.*?{.*?}.*?)]/g, (match, content) =>
+        state.src = state.src.replace(/\[([^\]]*?{[^\]]*?}[^\]]*?)]/g, (match, content) =>
           `<ruby>${content.replace(/(.*?){(.*?)}/g, (match, kanji, kana) => `${kanji}<rp>(</rp><rt>${kana}</rt><rp>)</rp>`)}</ruby>`
         )
         // 带圆圈数字替换

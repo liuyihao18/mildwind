@@ -17,6 +17,10 @@ export const Tutorials = {
       {
         text: '程序员演奏音乐',
         link: `${Base.tutorials}/music`
+      },
+      {
+        text: '傅里叶分析',
+        link: `${Base.tutorials}/fft`
       }
     ]
   }
