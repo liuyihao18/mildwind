@@ -1,9 +1,9 @@
-import {defineConfig} from 'vitepress'
-import {Japanese} from '../japanese/index.js'
-import {Program} from '../program/'
-import {Tutorials} from '../tutorials/'
-import {Tools} from '../tools/'
-import {Images} from '../images'
+import { defineConfig } from 'vitepress'
+import { Japanese } from '../japanese/index.js'
+import { Program } from '../program/'
+import { Tutorials } from '../tutorials/'
+import { Tools } from '../tools/'
+import { Images } from '../images'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -80,7 +80,7 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
 
     socialLinks: [
-      {icon: 'github', link: 'https://github.com/liuyihao18'}
+      { icon: 'github', link: 'https://github.com/liuyihao18' }
     ],
 
     docFooter: {
@@ -125,7 +125,7 @@ export default defineConfig({
     }
   },
   sitemap: {
-    hostname: 'https://www.liuyihao.top'
+    hostname: 'https://www.liuyihao.top/mildwind/'
   },
   lastUpdated: true,
 })
