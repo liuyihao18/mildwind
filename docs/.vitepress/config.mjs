@@ -42,19 +42,14 @@ export default defineConfig({
         link: '/',
       },
       {
-        text: '日本語の勉強',
-        link: Japanese.link,
-        activeMatch: Japanese.link
+        text: '知识分享',
+        link: Tutorials.link,
+        activeMatch: Tutorials.link
       },
       {
         text: '编程经验',
         link: Program.link,
         activeMatch: Program.link
-      },
-      {
-        text: '知识分享',
-        link: Tutorials.link,
-        activeMatch: Tutorials.link
       },
       {
         text: '小工具',
@@ -65,6 +60,11 @@ export default defineConfig({
         text: '图库',
         link: Images.link,
         activeMatch: Images.link
+      },
+      {
+        text: '日本語の勉強',
+        link: Japanese.link,
+        activeMatch: Japanese.link
       }
     ],
 
