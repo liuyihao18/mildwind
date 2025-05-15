@@ -29,6 +29,10 @@ export const Tutorials = {
     items: [
       UE5.sidebar,
       {
+        text: '简历求职',
+        link: `${Base.tutorials}/resume`,
+      },
+      {
         text: 'SSH密钥的使用',
         link: `${Base.tutorials}/ssh_keys`
       },
