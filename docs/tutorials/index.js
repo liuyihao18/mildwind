@@ -1,6 +1,23 @@
 const Base = {
   name: 'Base',
   tutorials: '/tutorials',
+  UE5: '/tutorials/UE5'
+}
+
+const UE5 = {
+  name: 'UE5',
+  link: `${Base.UE5}`,
+  sidebar: {
+    text: 'UE5',
+    link: `${Base.UE5}`,
+    collapsed: false,
+    items: [
+      {
+        text: '虚幻商城',
+        link: `${Base.UE5}/fab`,
+      }
+    ]
+  }
 }
 
 export const Tutorials = {
@@ -10,6 +27,7 @@ export const Tutorials = {
     text: '知识分享',
     link: `${Base.tutorials}/`,
     items: [
+      UE5.sidebar,
       {
         text: 'SSH密钥的使用',
         link: `${Base.tutorials}/ssh_keys`
