@@ -34,6 +34,10 @@ const Haskell = {
         collapsed: true,
         items: [
           {
+            text: '2',
+            link: `${Base.haskell}/leetcode/2`,
+          },
+          {
             text: '2529',
             link: `${Base.haskell}/leetcode/2529`,
           }
